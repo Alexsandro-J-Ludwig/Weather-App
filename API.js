@@ -8,7 +8,7 @@ const umidade = document.getElementById('umidade')
 const velocVento = document.getElementById('velocVento')
 const descricao = document.getElementById('descricao')
 
-addEventListener('DOMContentLoaded', requisitarClima(lat, lon))
+addEventListener('DOMContentLoaded', requisitarClima(lat, lon), localizar())
 
 function requisitarClima(lat, lon) {
     fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&lang=pt_br`)
