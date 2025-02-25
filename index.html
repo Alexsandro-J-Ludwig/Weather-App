@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Previsão do tempo</title>
     <script src="RequestGPS.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav>
-        <h1>Previsão do tempo</h1>
-    </nav>
 
+<body>
     <main>
-        <section>
-            <h2>Cidade: <span id="cidade">Cidade</span></h2>
-            <p><strong>Temperatura: </strong><span id="temperatura"></span>°C</p>
-            <p><strong>Umidade: </strong><span id="umidade"></span>%</p>
-            <p><strong>Velocidade do vento: </strong><span id="velocVento"></span>km/h</p>
-            <p><strong>Descrição: </strong><span id="descricao"></span></p>
+
+        <div id="previsao">
+            <h1>Previsão do tempo</h1>
+        </div>
+
+        <section id="tempo">
+            <h2><span id="cidade">Cidade</span></h2>
+
+            <p><span id="temperatura"></span></p>
+
+            <div id="sensacaoText">
+                <p style="font-size: 15px;">Sensação</p>
+                <p style="font-weight: bolder;"><span id="sensacao"></span></p>
+            </div>
+
+            <div id="unidadeText">
+                <p style="font-size: 15px;">Umidade</p>
+                <p style="font-weight: bolder;"><span id="umidade"></span></p>
+            </div>
+
+            <div id="pordosolText">
+                <p style="font-size: 15px;">Por do sol</p>
+                <p style="font-weight: bolder;"><span id="sunset"></span></p>
+                <img src="src/img/sunset.png" alt="Por do sol" id="sunsetIcon">
+            </div>
+
+
         </section>
+
     </main>
     <script src="API.js"></script>
 </body>
+
 </html>

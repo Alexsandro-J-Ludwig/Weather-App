@@ -37,7 +37,7 @@ function localizar() {
         return response.json()
     })
     .then(data => {
-        cidade.innerHTML = data[0].name + ', ' + data[0].state
+        cidade.innerHTML = data[0].name
 
     })
 }   

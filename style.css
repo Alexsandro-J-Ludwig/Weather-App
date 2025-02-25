@@ -1,0 +1,161 @@
+main {
+    width: 20vw;
+    height: 70vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(185, 185, 185, 0.391);
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 80vw;
+        height: 60vh;
+    }
+    
+}
+
+#previsao {
+    align-items: start;
+    text-align: start;
+    text-decoration: underline;
+    text-underline-position: auto;
+    text-underline-offset: 0.2em;
+    color: rgb(0, 0, 0);
+    width: 20vw;
+    height: 5vh;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #previsao {
+        width: 80vw;
+        height: 5vh;
+    }
+    
+}
+
+#tempo {
+    position: relative;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+    #tempo {
+        flex-direction: column;
+    }
+    
+}
+
+#cidade {
+    position: relative;
+    top: 2px;
+    right: 7vw;
+    font-size: 20px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    #cidade {
+        right: 28vw;
+    }
+    
+}
+
+#temperatura {
+    position: relative;
+    color: white;
+    right: 1vw;
+    font-size: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen {
+    #temperatura {
+        right: 4vw;
+    }
+}
+
+#sensacaoText {
+    position: relative;
+    right: 5vw;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255) ;
+    width: 8vw;
+    height: 14vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    #sensacaoText {
+        width: 27vw;
+        height: 15vh;
+        right: 20vw;
+    }
+    
+}
+
+#unidadeText {
+    position: relative;
+    bottom: 15.6vh;
+    left: 5vw;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255) ;
+    width: 8vw;
+    height: 14vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    #unidadeText {
+        width: 27vw;
+        height: 15vh;
+        left: 20vw;
+        bottom: 16.8vh;
+    }
+
+}
+
+#pordosolText {
+    position: relative;
+    bottom: 16vh;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255) ;
+    width: 18vw;
+    height: 14vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    #pordosolText {
+        width: 66vw;
+        height: 15vh;
+        bottom: 17vh;
+    }
+    
+}
+
+#sunsetIcon {
+    width: 5vw;
+    height: 8vh;
+    position: relative;
+    bottom: 3vh;
+}
+
+@media screen and (max-width: 768px) {
+    #sunsetIcon {
+        width: 15vw;
+        height: 8vh;
+        bottom: 3vh;
+    }
+    
+}
