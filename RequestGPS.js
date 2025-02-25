@@ -12,7 +12,9 @@ if (!localStorage.getItem('lat')  && !localStorage.getItem('lon')) {
             localStorage.setItem('lon', lon)
             localStorage.setItem('local', JSON.stringify(local))
 
-            console.log('lozalização armazenada')
+            window.location.reload()
+
+            console.log('localização armazenada')
         })
 } else {
     console.log(
