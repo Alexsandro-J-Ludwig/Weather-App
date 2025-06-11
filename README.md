@@ -1,50 +1,50 @@
-# Weather App
+# Weather-App
 
-Uma aplicação de previsão do tempo que utiliza a geolocalização do usuário para fornecer informações sobre o clima na sua localização atual, como temperatura, umidade, velocidade do vento e descrição do clima. A aplicação faz uso da API do OpenWeatherMap para fornecer as informações meteorológicas.
+![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-## Funcionalidades
-- **Geolocalização:** Detecta a localização do usuário via GPS.
-- **Informações Climáticas:** Exibe temperatura, umidade, velocidade do vento e descrição do clima.
-- **Armazenamento Local:** As coordenadas de latitude e longitude do usuário são salvas no localStorage para que não seja necessário pedir permissão para acessar o GPS toda vez que o app for carregado.
-- **Exibição em Português:** Os dados climáticos são retornados em português (Brasil).
+> Uma aplicação de previsão do tempo que utiliza a geolocalização do usuário para fornecer informações sobre o clima na sua localização atual, como temperatura, umidade, velocidade do vento e descrição do clima. A aplicação faz uso da API do OpenWeatherMap para fornecer as informações meteorológicas.
 
-## Tecnologias Utilizadas
+### Ajustes e melhorias
 
-- **HTML:** Estrutura da página.
-- **CSS:** Estilo da página (não incluso no momento).
-- **JavaScript:** Lógica de funcionamento e manipulação da API.
-- **API do OpenWeatherMap:** Para obter as informações meteorológicas.
-- **Geolocalização HTML5:** Para obter as coordenadas do usuário.
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
 
-## Como Usar
+- [x] Criação do sistema
+- [x] Integração com a API
+- [x] Interface gráfica trabalhada
+- [ ] Correção de bugs
+- [ ] Adição de mecanimo de pesquisa por API externa
+- [ ] Previsão do clima nos próximos dias seguidos do atual
 
-1. Clone o repositório:
+## 🚀 Instalando <nome_do_projeto>
+
+Clone o repositório:
 
 ```bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/weather-app.git
+git clone https://github.com/Alexsandro-J-Ludwig/weather-app.git
 ```
-2. Abra o arquivo `index.html` no navegador de sua preferência.
 
-3. Ao acessar a aplicação pela primeira vez, será solicitado que você permita o acesso à sua localização via GPS. Se você já tiver permitido, as coordenadas serão salvas no `localStorage`.
+## ☕ Usando <nome_do_projeto>
 
-4. O clima será exibido na tela com as informações de temperatura, umidade, velocidade do vento e a descrição do clima.
+1. Abra o arquivo `index.html` no navegador de sua preferência.
 
-# API Utilizada
+2. Ao acessar a aplicação pela primeira vez, será solicitado que você permita o acesso à sua localização via GPS. Se você já tiver permitido, as coordenadas serão salvas no `localStorage`.
 
-* [OpenWeatherMap](https://openweathermap.org/) – A API fornece informações detalhadas sobre o clima em tempo real com base nas coordenadas fornecidas (latitude e longitude).
+3. O clima será exibido na tela com as informações de temperatura, umidade, velocidade do vento e a descrição do clima.
 
-# Contribuições
-Sinta-se à vontade para fazer contribuições! Para isso, siga os passos abaixo:
+## 📫 Contribuindo para <nome_do_projeto>
 
-1. Faça um fork deste repositório.
-2. Crie uma nova branch com a sua feature (git checkout -b feature/MinhaFeature).
-3. Faça o commit das suas alterações (git commit -am 'Adicionando nova funcionalidade').
-4. Envie para o seu repositório (git push origin feature/MinhaFeature).
-5. Abra um pull request explicando as suas alterações.
+Para contribuir com Weather-App, siga estas etapas:
 
-# Licença
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+5. Crie a solicitação de pull.
 
-Este projeto é licenciado sob a Licença MIT – consulte o arquivo [LICENSE](LICENSE.txt) para mais detalhes.
+## 📝 Licença
 
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
